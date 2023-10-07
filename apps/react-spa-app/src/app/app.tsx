@@ -4,6 +4,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <div>
+      <h1 className="text-3xl text-purple-600 font-bold">Tailwind title</h1>
       <br />
       <hr />
       <br />
