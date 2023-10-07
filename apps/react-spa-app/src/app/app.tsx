@@ -1,18 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css'
-
-import NxWelcome from './nx-welcome'
-
-import {Route, Routes, Link} from 'react-router-dom'
+import { Title } from '@react-monorepo/ui';
+import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="react-spa-app" />
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
       <br />
       <hr />
       <br />
@@ -31,6 +22,9 @@ export function App() {
           path="/"
           element={
             <div>
+              <Title>
+                Hello, from <code>ui</code>
+              </Title>
               This is the generated root route.{' '}
               <Link to="/page-2">Click here for page 2.</Link>
             </div>
@@ -45,9 +39,8 @@ export function App() {
           }
         />
       </Routes>
-      {/* END: routes */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
