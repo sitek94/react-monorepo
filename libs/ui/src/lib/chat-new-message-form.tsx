@@ -17,10 +17,10 @@ export function ChatNewMessageForm({ onSubmit }: ChatNewMessageFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="relative">
-      <div className="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-primary-500 focus-within:ring-1 focus-within:ring-primary-500">
+      <div className="overflow-hidden rounded-lg border border-primary-300 shadow-sm focus-within:border-accent-500 focus-within:ring-1 focus-within:ring-accent-500">
         <textarea
           name="message"
-          className="block w-full resize-none border-0 p-2 focus:outline-none sm:text-sm"
+          className="block w-full resize-none border-0 p-2 focus:outline-none sm:text-sm bg-transparent"
           placeholder="Type your message here"
           aria-label="Type your message here"
           defaultValue={''}
@@ -40,7 +40,7 @@ export function ChatNewMessageForm({ onSubmit }: ChatNewMessageFormProps) {
         <div className="flex-shrink-0">
           <button
             type="submit"
-            className="inline-flex items-center rounded-md border border-transparent bg-primary-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+            className="inline-flex items-center rounded-md border border-transparent bg-accent-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-accent-700 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2"
           >
             Send message
           </button>

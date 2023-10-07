@@ -20,8 +20,8 @@ export function ChatMessagesList({ messages }: ChatMessagesListProps) {
               className={twJoin(
                 'p-2 rounded-lg',
                 isOwn
-                  ? 'text-white bg-primary-500'
-                  : 'text-gray-900 bg-gray-300'
+                  ? 'text-white bg-accent-500'
+                  : 'text-primary-900 bg-primary-300'
               )}
             >
               {text}

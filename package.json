@@ -25,6 +25,7 @@
     "@remix-run/dev": "^1.16.1",
     "@remix-run/eslint-config": "^1.16.1",
     "@storybook/addon-essentials": "^7.2.1",
+    "@storybook/addon-themes": "^7.4.6",
     "@storybook/core-server": "^7.2.1",
     "@storybook/react": "^7.2.1",
     "@storybook/react-vite": "^7.2.1",
